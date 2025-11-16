@@ -1,4 +1,4 @@
- # 🧭 Strategic Summary: Top 3 Drivers of Credit Risk via SHAP Analysis
+ # Strategic Summary: Top 3 Drivers of Credit Risk via SHAP Analysis
 
 ### Feature Importance Comparison
 
@@ -53,7 +53,7 @@ This summary highlights the most influential features driving credit risk predic
   - Promote responsible lending by incentivizing higher-grade applications.
 ---
 
-## 📊 Supporting Evidence
+##  Supporting Evidence
 - **SHAP Summary Plot:**  
   Confirms wide SHAP value ranges and strong directional influence for top features.
 - **Force Plots:**  
