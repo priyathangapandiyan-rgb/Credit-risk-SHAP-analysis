@@ -33,7 +33,7 @@ The best model was interpreted using **SHAP (SHapley Additive exPlanations)** fo
 
 ## 4. Model Evaluation
 
-### ✔ XGBoost Results
+### XGBoost Results
 - **AUC:** 0.82  
 - **F1 Score:** 0.72
 - **Precision:** 0.76
@@ -72,9 +72,9 @@ Identified from mean absolute **SHAP** values:
 - `plots/4.Feature importance plot.png`
 ---
 
-## 6.🔍 Comparative Analysis: Global Feature Importance
+## 6. Comparative Analysis: Global Feature Importance
 
-###🔸 XGBoost Built-in Importance
+### XGBoost Built-in Importance
 
 | Rank | Feature                     | Importance Score |
 |------|-----------------------------|------------------|
@@ -92,7 +92,7 @@ Identified from mean absolute **SHAP** values:
 | 12   | loan_amnt                   | 27.0             |
 | 13   | cb_person_cred_hist_length  | 19.0             |
 ---
-##🔸SHAP Summary Plot Importance
+## SHAP Summary Plot Importance
 
 | Rank | Feature                     | SHAP Impact |
 |------|-----------------------------|-------------|
@@ -112,7 +112,7 @@ Identified from mean absolute **SHAP** values:
 | 14   | cb_person_default_on_file   | Very Low    |
 ---
 
-## 🧠 Key Insights
+##  Key Insights
 
 - **person_income** is consistently ranked highest in both methods — confirming its strong predictive power.
 - **loan_grade** has greater impact in SHAP than in XGBoost, suggesting its influence is more nuanced than split frequency reveals.
@@ -121,7 +121,7 @@ Identified from mean absolute **SHAP** values:
 
 ---
 
-## ✅ Conclusion
+##  Conclusion
 
 - XGBoost’s built-in metrics are useful for quick feature ranking but may miss deeper patterns.
 - SHAP provides richer interpretability, showing both magnitude and direction of feature influence.
