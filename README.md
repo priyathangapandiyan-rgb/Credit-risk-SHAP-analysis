@@ -1,12 +1,12 @@
-# **Credit Risk Analysis, Prediction & Explainability**
+# Credit Risk Analysis, Prediction & Explainability
  A machine learning project for predicting credit risk with interpretability and explainability using SHAP analysis.
 ---
 
-## ** Project Overview**
+##  Project Overview
 
 This project builds a credit risk prediction model using machine learning to classify loan applicants as defaulters or non-defaulters. The model is interpreted using SHAP to explain predictions.And explain the drivers of credit risk, these findings in terms of potential policy adjustments for a lending institutions.
 ---
-##📂 **Repository Structure**
+##📂 Repository Structure
 
 ```
 credit-default-shap-project/
@@ -32,7 +32,7 @@ credit-default-shap-project/
 
 ---
 
-## **📂 Dataset**
+## 📂 Dataset
 The dataset contains loan applicant information with features such as:
 - **Personal details** (Age, Income, Employment Length)
 - **Loan details** (Amount, Interest Rate, Grade, Intent)
@@ -42,10 +42,10 @@ The dataset contains loan applicant information with features such as:
  **Dataset Source**: Public credit risk datasets from **Kaggle / Lending Club / Home Credit**.
 ---
 
-## ** Data Analysis**
+## Data Analysis
 We conducted **exploratory data analysis (EDA)** to understand the dataset structure and detect any inconsistencies.
 
-### ** Steps in Data Analysis**
+###  Steps in Data Analysis
 1. **Missing Value Handling**
 - Filled missing values for `person_emp_length` with **median**.
 - Replaced missing values for `loan_int_rate with` **mean**.
@@ -63,10 +63,10 @@ We conducted **exploratory data analysis (EDA)** to understand the dataset struc
 - Applied SMOTE (Synthetic Minority Oversampling Technique) to balance default & non-default cases.
 ---
 
-## ** Model Training**
+##  Model Training
 To ensure **robust performance** , we trained model and analysis it.
 
-### **  Models Used**
+###  Models Used
 - **XGBoost**
 - **Random Forest**
 
