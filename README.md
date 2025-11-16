@@ -6,7 +6,7 @@
 
 This project builds a credit risk prediction model using machine learning to classify loan applicants as defaulters or non-defaulters. The model is interpreted using SHAP to explain predictions.And explain the drivers of credit risk, these findings in terms of potential policy adjustments for a lending institutions.
 ---
-##📂 Repository Structure
+## Repository Structure
 
 ```
 credit-default-shap-project/
@@ -32,7 +32,7 @@ credit-default-shap-project/
 
 ---
 
-## 📂 Dataset
+## Dataset
 The dataset contains loan applicant information with features such as:
 - **Personal details** (Age, Income, Employment Length)
 - **Loan details** (Amount, Interest Rate, Grade, Intent)
