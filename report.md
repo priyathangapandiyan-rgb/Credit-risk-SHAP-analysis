@@ -34,10 +34,10 @@ The best model was interpreted using **SHAP (SHapley Additive exPlanations)** fo
 ## 4. Model Evaluation
 
 ### XGBoost Results
-- **AUC:** 0.82  
-- **F1 Score:** 0.72
-- **Precision:** 0.76
-- **Recall:** 0.68
+- **AUC:** 0.84  
+- **F1 Score:** 0.80
+- **Precision:** 0.96
+- **Recall:** 0.69
 - **Hyperparameters:** n_estimators=100, max_depth=4, learning_rate=0.1
   
 ### Interpretation
